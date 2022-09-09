@@ -67,11 +67,17 @@ iframe {
 .icons img:hover {
 	background-color: #fde5ea; 
 }
-.CV {
-	font-size: 25px;
+.CV p {
+	font-size: 15px;
+	background-color: #fde5ea; 
+	border: 2px solid #818ea1;
+	border-radius: 15px;
 } 
 
-
+#about-me a:hover {
+	font-size: 17px;
+	color: black;
+}	
 
 #navbar {
 	display: flex;
@@ -129,12 +135,7 @@ iframe {
 	height: 20vh;
   color:  #818ea1;
 }
-#welcome-section .CV {
-	color:  #818ea1;
-	position: absolute;
-	bottom: 40px;
-	right: 40px;
-}
+
 
 #about-me p {
 	width: 80%;

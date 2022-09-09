@@ -73,7 +73,7 @@ const Proyectos = (props) => {
                         <div class="Project">
                             <p>Proyecto transporte</p>
                             <div class="Project-img">
-                                <iframe width="560" height="315" src="https://www.youtube.com/embed/0w8jCvtxwdg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                <iframe width="560" height="315" src="https://res.cloudinary.com/dz6gqdulr/video/upload/v1662727846/portfolio/proyectos/videos/Proyecto_transporte_gbceno.mp4" allowfullscreen></iframe>
                             </div>
                             <a href="https://github.com/paulaadolfi/transporte" Target="_blank" class="codigo">Ver codigo</a>
                             <h6>Pagina de empresa de servicio de transportes. Frontend desarrollado en React con 4 secciones, consumo de Api para la carga de datos e imágenes y generación de api para envío de mails a través de nodejs/nodemailrer. Full responsive. Backend desarrollado en nodejs con express y base de datos sql. Pagina de login y para CRUD de novedades que se envían a React a través de Api. Todas con vistas en handlebars. Utilización de dependencias para el manejo de variables de entorno. Completamente funcional y autoadministrable. Se realizo despliegue en heroku.</h6>
