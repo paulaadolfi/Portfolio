@@ -8,7 +8,7 @@ const SobreMi = (props) => {
 				<div class="titulos">
 					<h4>Sobre mi</h4>
 					<div class="icontitle">
-						<hr /><img src="https://res.cloudinary.com/dz6gqdulr/image/upload/v1662724567/portfolio/003-woman_ntfh1h.png" /><hr />
+						<hr /><img src="https://res.cloudinary.com/dz6gqdulr/image/upload/v1662730976/portfolio/iconos/003-woman_knsmda.png" /><hr />
 					</div>
 				</div>
 				<p>Me encuentro cursando el segundo año de la tecnicatura superior en desarrollo de software y dando mis primeros pasos como desarrolladora. El descubrimiento del mundo IT me tiene fascinada, por lo que además de los conocimientos académicos estoy en constante capacitación.</p>
@@ -24,7 +24,7 @@ const SobreMi = (props) => {
 				<div class="titulos">
 					<h4>Skills</h4>
 					<div class="icontitle">
-						<hr /><img src="https://res.cloudinary.com/dz6gqdulr/image/upload/v1662724566/portfolio/002-pencil_exlodq.png" /><hr />
+						<hr /><img src="https://res.cloudinary.com/dz6gqdulr/image/upload/v1662730976/portfolio/iconos/002-pencil_usrykl.png" /><hr />
 					</div>
 				</div>
 				<div class="img-skills">
