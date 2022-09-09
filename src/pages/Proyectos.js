@@ -7,7 +7,7 @@ const Proyectos = (props) => {
                 <div class="titulos">
                     <h4>Proyectos</h4>
                     <div class="icontitle">
-                        <hr /><img src="images/png/001-skill.png" /><hr />
+                        <hr /><img src="https://res.cloudinary.com/dz6gqdulr/image/upload/v1662724566/portfolio/001-skill_kdewu5.png" /><hr />
                     </div>
                 </div>
                 <section class="project-tile">
@@ -23,35 +23,35 @@ const Proyectos = (props) => {
                         </div>
                         <div class="carousel-inner">
                             <div class="carousel-item active">
-                                <img src="images/proyectos/cocacola.PNG" class="d-block w-100" alt="Proyecto coca"/>
+                                <img src="https://res.cloudinary.com/dz6gqdulr/image/upload/v1662724567/portfolio/cocacola_dpxk3w.png" class="d-block w-100" alt="Proyecto coca"/>
                                     <div class="carousel-caption d-none d-md-block">
                                         <h6>Proyecto Coca Cola</h6>
                                         <h6><a href="https://paulaadolfi.github.io/Proyecto_coca"> Visitar Sitio</a> -- <a href="https://github.com/paulaadolfi/Proyecto_coca"> Ver Código</a></h6>
                                     </div>
                             </div>
                             <div class="carousel-item">
-                                <img src="images/proyectos/encuesta.PNG" class="d-block w-100" alt="Encuesta"/>
+                                <img src="https://res.cloudinary.com/dz6gqdulr/image/upload/v1662724568/portfolio/encuesta_dayage.png" class="d-block w-100" alt="Encuesta"/>
                                     <div class="carousel-caption d-none d-md-block">
                                         <h6>Encuesta</h6>
                                         <h6><a href="https://codepen.io/Paula-Adolfi/full/ExbBQEx"> Visitar Sitio</a> // <a href="https://codepen.io/Paula-Adolfi/pen/ExbBQEx"> Ver Código</a></h6>
                                     </div>
                             </div>
                             <div class="carousel-item">
-                                <img src="images/proyectos/landing_product.PNG" class="d-block w-100" alt="landing page"/>
+                                <img src="https://res.cloudinary.com/dz6gqdulr/image/upload/v1662724578/portfolio/landing_product_cb6lal.png" class="d-block w-100" alt="landing page"/>
                                     <div class="carousel-caption d-none d-md-block">
                                         <h6>Landing Page</h6>
-                                        <h6><a href="https://codepen.io/Paula-Adolfi/full/rNpxGwO"> Visitar Sitio</a> // <a href="https://codepen.io/Paula-Adolfi/pen/rNpxGwO"> Ver Código</a></h6>
+                                        <h6><a href="https://res.cloudinary.com/dz6gqdulr/image/upload/v1662724574/portfolio/tributo_axurco.png"> Visitar Sitio</a> // <a href="https://codepen.io/Paula-Adolfi/pen/rNpxGwO"> Ver Código</a></h6>
                                     </div>
                             </div>
                             <div class="carousel-item">
-                                <img src="images/proyectos/dt.PNG" class="d-block w-100" alt="Documentacion técnica"/>
+                                <img src="https://res.cloudinary.com/dz6gqdulr/image/upload/v1662724567/portfolio/dt_mhaimn.png" class="d-block w-100" alt="Documentacion técnica"/>
                                     <div class="carousel-caption d-none d-md-block">
                                         <h6>Documentacion técnica</h6>
                                         <h6><a href="https://codepen.io/Paula-Adolfi/full/PoEmaRr"> Visitar Sitio</a> // <a href="https://codepen.io/Paula-Adolfi/pen/PoEmaRr"> Ver Código</a></h6>
                                     </div>
                             </div>
                             <div class="carousel-item">
-                                <img src="images/proyectos/tributo.PNG" class="d-block w-100" alt="Pagina Tributo"/>
+                                <img src="https://res.cloudinary.com/dz6gqdulr/image/upload/v1662724574/portfolio/tributo_axurco.png" class="d-block w-100" alt="Pagina Tributo"/>
                                     <div class="carousel-caption d-none d-md-block">
                                         <h6>Pagina Tributo</h6>
                                         <h6><a href="https://codepen.io/Paula-Adolfi/full/eYeXvPq"> Visitar Sitio</a> // <a href="https://codepen.io/Paula-Adolfi/pen/eYeXvPq"> Ver Código</a></h6>
