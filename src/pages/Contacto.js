@@ -25,7 +25,6 @@ const Contacto = (props) => {
 			<div class="icons">
 				<a href="https://www.linkedin.com/in/paula-adolfi" target="_blank"><img src="https://res.cloudinary.com/dz6gqdulr/image/upload/v1662730975/portfolio/iconos/001-linkedin_rfeslx.png"/></a>
 				<a href="mailto:paula.adolfi@gmail.com"><img src="https://res.cloudinary.com/dz6gqdulr/image/upload/v1662730976/portfolio/iconos/002-gmail_f21s7j.png" class="border"/></a>
-				<a href="https://api.whatsapp.com/send?phone=542215689328" target="_blank"><img src="https://res.cloudinary.com/dz6gqdulr/image/upload/v1662730976/portfolio/iconos/003-whatsapp_tjoozt.png" class="border"/></a>
 			</div>
 		</section>
         </main>
