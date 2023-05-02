@@ -1,0 +1,22 @@
+#Skills {
+	align-items: center;
+}
+#Skills .img-skills {
+	display: flex;
+	padding: 1em;
+}
+#Skills .img-skills img {
+	width: 10vh;
+	height: auto;
+	object-fit: cover;
+	margin-top: 20px;
+}
+
+@media (max-width: 767px) {
+
+	#Skills .img-skills img {
+		width: 8vh;
+		margin-top: 5px;
+	}
+
+}

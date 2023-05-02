@@ -1,0 +1,25 @@
+#about-me a:hover {
+	font-size: 17px;
+	color: black;
+}	
+
+#about-me p, .certificaciones {
+	width: 80%;
+	text-align: center;
+	color: #818ea1;
+	list-style:none
+}
+
+#about-me a{
+	text-decoration: none;
+	color: #3f3d4f;
+}
+
+
+@media (max-width: 767px) {
+
+	#about-me .certificaciones {
+		width: 90%;
+		margin-left: 5px;
+	}
+}

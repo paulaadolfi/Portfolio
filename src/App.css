@@ -3,6 +3,7 @@
 	max-width: 2500px;
 	margin-left: auto;
 	margin-right: auto;
+	font-family: Dosis;
 	
 }
 html {
@@ -10,7 +11,6 @@ html {
 }
 
 body {
-	font-family: Dosis;
 	background-color: #f2eff3
 }
 hr {
@@ -42,6 +42,7 @@ iframe {
    	font-size: 35px;
 	color: black;
 	text-align: center;
+	margin-top: 15px;
 	margin-bottom: 10px;
 }
 .titulos h4 {
@@ -54,7 +55,7 @@ iframe {
 
 .icontitle img{
 	margin: 0 auto;
-	width: 20px ;
+	
 }
 
 .border {
@@ -67,201 +68,37 @@ iframe {
 .icons img:hover {
 	background-color: #fde5ea; 
 }
-.CV p {
+.btnRosa {
 	font-size: 15px;
 	background-color: #fde5ea; 
 	border: 2px solid #818ea1;
 	border-radius: 15px;
+	display: flex;
+	justify-content: center;
+	text-decoration: none;
+	color: #3f3d4f;
+	width: 50%;
+	margin-top: 5px;
+	margin-bottom: 5px;
+
 } 
+.btnRosa:hover {
+	font-size: 17px;
+	color: black;
+}
+
 .subrayado{
 	text-decoration: underline;
 }
 
-#about-me a:hover {
-	font-size: 17px;
-	color: black;
-}	
-
-#navbar {
-	display: flex;
-	top: 0;
-	background-color: #818ea1;
-	height: 60px;
-	width: 100%;
-	align-items: center;
-	margin-bottom: 20px;
-}
-#navbar ul {
-	font-size: 20px;
-	list-style-type: none;
-	display: inline-block;
-    margin-right: 10px;
-}
-#navbar ul li{
-	display: inline-block;
-	padding: 5px 10px;
-}
-#navbar a {
-	text-decoration: none;
-	color: #ece6ed;
-	padding: 10px 25px;
-}
-#navbar a:hover {
-	color: #3f3d4f;
-}
-#navbar ul li a.activo {
-    color: #3f3d4f;
-}
-#welcome-section {
-	background-image: url(https://thumbs.dreamstime.com/b/fondo-rosado-polivin%C3%ADlico-bajo-del-vector-de-la-tecnolog%C3%ADa-extracto-conexi%C3%B3n-133328331.jpg);
-	background-size: cover;
-	background-position: center;
-	width: 100%;
-  height: 250px;
-	text-align: center;
-	display: flex;
-	align-items: center;
-}
-#welcome-section h1 {
-	font-size: 25px;
-	font-weight: normal;
-	margin: 10px;
-}
-#welcome-section .container-welcome img {
-	width: 10vh;
-	border-radius: 100px;
-}
-#welcome-section .container-welcome {
-	backdrop-filter: blur(20px);
-	border-radius: 50px;
-	width: 55vh;
-	height: 20vh;
-  color:  #818ea1;
-}
 
 
-#about-me p, .certificaciones {
-	width: 80%;
-	text-align: center;
-	color: #818ea1;
-	list-style:none
-}
 
-#Skills {
-	align-items: center;
-}
-#Skills .img-skills {
-	display: flex;
-	padding: 1em;
-}
-#Skills .img-skills img {
-	width: 10vh;
-	height: auto;
-	object-fit: cover;
-	margin-top: 20px;
-}
-#projects .carrusel {
-	width: 70%;
-	border-radius: 30px;
-	padding: 0;
-}
-#projects .carrusel h6 {
-	background-color: #f2eff3;
-	color: #818ea1;
-	font-size: 20px;
-	width:40%;
-	border-radius: 15px;
-	padding: 5px;;
-}
-#projects .carrusel img {
-	height: 70vh;
-}
-#projects .carrusel a:hover {
-	background-color: #818ea1;
-	color: #fde5ea;
-	border-radius: 15px;
-	padding: 5px;
-}
 
-#html_css {
-	display: grid;
-	align-items: center;
-	grid-template-columns: 50% 50%;
-}
-#projects .Project {
-	text-align: center;
-	width: 80%;
-	height: 100%;
-}
-#projects .Project img {
-	width: 100%;
-	height: 300px;
-	object-fit: cover;
-	object-position: top;
-	border-radius: 5px;	
-	margin-bottom: 10px;
-	filter: grayscale(50%);
-}
-#projects .Project img:hover {
-	filter: grayscale(0);
-}
-#projects p {
-	color: #818ea1;
-	font-size: 25px;
-	text-align: center;
-}
-.Project h6 {
-	font-size: 15px;
-	color: #818ea1;
-	text-align: justify;
-	margin: 15px;
-}
-#projects .codigo {
-	text-decoration: none;
-	color: #818ea1;
-	margin: 10px 15px;
-	background-color: #fde5ea;
-	border-radius: 10px;
-	text-align: center;
-	padding: 5px;
 
-}
-#projects .codigo:hover {
-	color: #fbd4dc;
-	background-color: #818ea1;
-}
-#projects h5 {
-	width: 30%;
-	background-color: #fde5ea;
-	border-radius: 50px;
-	text-align: center;
-	color: #818ea1;
-	font-size: 30px;
-	font-weight: normal;
-	margin: 25px auto;
-}
 
-@media (max-width: 767px) {
-	#navbar a {
-		font-size: 18px;
-		padding: 0;
-		margin: 5px
-	}
 
-	#Skills .img-skills img {
-		width: 8vh;
-		margin-top: 5px;
-	}
 
-	#welcome-section h1 {
-		font-size: 20px;
-	}
-	iframe {
-	width: 80%;
-	height: 20vh;
-	}
-	#projects .carrusel img {
-		height: 30vh;
-	}
-	
-}
+
+
+
